@@ -43,22 +43,16 @@ cd VisionATS
 
 
 2. Create a virtual environment and install requirements
-
 python -m venv myenv
-
 myenv\Scripts\activate
-
 pip install -r requirements.txt
 
 
 3. Run Streamlit app
-
 cd app
-
 streamlit run streamlit_app.py
 
 
 Example Output:
-
 resume-sample.pdf vs sample-job-description.pdf similarity: 0.36
 
