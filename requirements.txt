@@ -1,0 +1,20 @@
+# text extraction
+pdfplumber
+python-docx
+PyMuPDF
+regex
+
+
+# NLP & embeddings
+sentence-transformers
+numpy
+scikit-learn
+faiss-cpu # small local Faiss build; on some platforms you may need conda/more steps
+
+
+# data utils
+pandas
+pytest
+
+# web app
+streamlit
