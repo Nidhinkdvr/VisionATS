@@ -37,7 +37,7 @@ VisionATS/
 1. Clone the repo:
 
 
-git clone https://github.com/Nidhinkdvr/VisionATS.git
+** git clone https://github.com/Nidhinkdvr/VisionATS.git
 cd VisionATS
 
 
@@ -65,4 +65,12 @@ Upload a resume and a job description, and the app will show the similarity scor
  Example Output
 
 
-resume-sample.pdf vs sample-job-description.pdf similarity: 0.36
+resume-sample.pdf vs sample-job-description.pdf similarity: 0.36%
+
+
+```bash
+for shell/terminal commands
+pip install -r requirements.txt
+streamlit run app/streamlit_app.py
+```
+
