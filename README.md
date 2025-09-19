@@ -32,45 +32,33 @@ VisionATS/
 │── README.md # Project documentation
 
 
+
+
 # Installation
 
-1. Clone the repo:
-
-
-** git clone https://github.com/Nidhinkdvr/VisionATS.git
+## 1. Clone the repo
+```bash
+git clone https://github.com/Nidhinkdvr/VisionATS.git
 cd VisionATS
 
 
-Create a virtual environment and install requirements:
-
+2. Create a virtual environment and install requirements
 
 python -m venv myenv
 
-myenv\Scripts\activate  
-
+myenv\Scripts\activate
 
 pip install -r requirements.txt
 
 
-
-2. Run Streamlit app
-
+3. Run Streamlit app
 
 cd app
+
 streamlit run streamlit_app.py
 
 
-Upload a resume and a job description, and the app will show the similarity score.
+Example Output:
 
- Example Output
-
-
-resume-sample.pdf vs sample-job-description.pdf similarity: 0.36%
-
-
-```bash
-for shell/terminal commands
-pip install -r requirements.txt
-streamlit run app/streamlit_app.py
-```
+resume-sample.pdf vs sample-job-description.pdf similarity: 0.36
 
