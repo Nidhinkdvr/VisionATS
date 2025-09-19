@@ -20,10 +20,15 @@ It helps candidates understand how well their resume fits a job posting, and giv
 # Project Structure
 VisionATS/
 │── Data/ # Sample resumes and job descriptions
+
 │── Notebooks/ # Experimentation notebooks
+
 │── src/ # Core code: parser, matcher, utils
+
 │── app/ # Streamlit frontend
+
 │── requirements.txt # Dependencies
+
 │── README.md # Project documentation
 
 
@@ -40,7 +45,10 @@ Create a virtual environment and install requirements:
 
 
 python -m venv myenv
+
 myenv\Scripts\activate  
+
+
 pip install -r requirements.txt
 
 
@@ -50,6 +58,8 @@ pip install -r requirements.txt
 
 cd app
 streamlit run streamlit_app.py
+
+
 Upload a resume and a job description, and the app will show the similarity score.
 
  Example Output
