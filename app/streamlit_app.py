@@ -2,7 +2,7 @@ import streamlit as st
 import sys
 import os
 
-# Add project root so src modules are accessible
+
 sys.path.append("..")
 
 from src import parser, matcher
